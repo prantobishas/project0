@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    <link href="styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="scss_styles.css" rel="stylesheet">
+    <title>Dutch Football</title>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar" style="background-color: #1a29ad;">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/leeuw2.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="players.html">Players</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="UEFA_NL.html">UEFA Nations League <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="qualifiers.html" >Qualifiers EK</a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+    <div id="container">
+        
+        <!-- Quick redirect -->
+        <div id="quick_redirect">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link disabled">Go direct to: </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nations">New concept</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#playoffs">Play-offs result</a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Article nations league -->
+        <div id="tabart">
+            <article id="art_nl">
+                <h4 id="nations">New concept</h4>
+                <p>The UEFA Nations League is a brand new tournament in Europe. The UEFA Nations League is a biennial international football 
+                    competition contested by the senior men's national teams of the member associations of UEFA, the sport's European governing body.
+                    The first tournament began in September 2018, following the 2018 FIFA World Cup. The four group winners from League A qualified 
+                    for the finals, played in Portugal in June 2019. Four nations, one from each League, will also qualify for the UEFA Euro 2020 finals.
+                    The competition largely replaces the international friendly matches previously played on the FIFA International Match Calendar.<br>
+                    [source: <a href="https://en.wikipedia.org/wiki/UEFA_Nations_League">https://en.wikipedia.org/wiki/UEFA_Nations_League</a>]</p>
+            </article>
+            
+            <!-- Table play-offs -->
+            <div id="draw">
+                <h4 id="playoffs">Play-offs result</h4>
+                <table class="table table-bordered col-sm-2 col-lg-6" id="table_draw">
+                    <tbody>
+                        <tr>
+                            <td><img src="images/portu.png" width="24" height="16"></td>
+                            <td><b>Portugal</b></td>
+                            <td class="score">3</td>
+                            <td rowspan="2" colspan="3" class="blank"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/swiss.png" width="24" height="16"></td>
+                            <td>Switzerland</td>
+                            <td class="score">1</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="3" class="blank"></td>
+                            <td><img src="images/portu.png" width="24" height="16"></td>
+                            <td><b>Portugal</b></td>
+                            <td class="score">1</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/nl.png" width="24" height="16"></td>
+                            <td>Netherlands</td>
+                            <td class="score">0</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/nl.png" width="24" height="16"></td>
+                            <td><b>Netherlands</b></td>
+                            <td class="score">3</td>
+                            <td rowspan="2" colspan="3" class="blank"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/eng.png" width="24" height="16"></td>
+                            <td>England</td>
+                            <td class="score">1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            Made by Pranto Bishas   -   Web App Studios     -   project0
+        </footer>
+    </div>
+    
+    <!-- Additional script for navbar -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

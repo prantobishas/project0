@@ -1,0 +1,44 @@
+$color: rgb(255, 136, 0);
+
+body {
+    background-color: $color;
+    font-family: "Arial, Times New Roman", sans-serif;
+}
+
+h2{
+    border: 3px $color solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Sass nesting */
+article {
+    
+    h2{
+        display:inline-block;
+    }
+
+    div{
+        margin: 20px;
+        width: 85%;
+    }
+}
+
+/* Sass inheritance */
+%flexible {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tabart {
+    @extend %flexible;
+    min-width:460px;
+    width: auto !important;  
+    width:700px;
+    padding: 10px;
+} 
+
+.players_nl {
+    @extend %flexible;
+    padding-top: 10px;
+}

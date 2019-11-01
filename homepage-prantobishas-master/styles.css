@@ -1,0 +1,79 @@
+/* text-size change for smaller screen */
+@media (max-width: 550px) {
+    body {
+      background-color: orange;
+      font-size: 110%;
+    }
+}
+
+#container {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav li:hover {
+    background-color: #333;
+}
+
+#draw, .card, #schedule, #quick_redirect {
+    margin: 20px;  
+}
+
+#quick_redirect {
+    background-color: white;
+    width: 165px;
+    border-style: outset;
+    float: left;
+}
+
+.nl, .result, footer {
+    text-align: center;
+}
+
+.card, #table_nl {
+    float: left;
+ }
+
+#art_history {
+    width: 800px;
+}
+
+.card {
+    width: 18rem;
+} 
+
+.card-img-top {
+    height: 180px;
+}
+
+#table_draw {
+    border: 2px black solid;
+}
+
+.blank {
+    background-color: lightgrey;
+}
+
+.score {
+    width: 20px;
+}
+
+#art_nl {
+    width: 800px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#schedule {
+    width: 500px;
+}
+
+#sub {
+    font-size: 10px;
+}
+
+footer {
+    background-color: #eeeeee;
+    clear: both;
+}
